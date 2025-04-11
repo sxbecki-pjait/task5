@@ -1,14 +1,17 @@
 public class Movie extends LibraryMedia {
     private String director;
-    private String duration;
+    private int duration;
     private double ratingOnIMDB;
 
-    public Movie(String title, String director, String duration, int publicationYear, double ratingOnIMDB) {
+    public Movie(String title, String director, int duration, int publicationYear, double ratingOnIMDB) {
         super(title, publicationYear);
         this.director = director;
         this.duration = duration;
         this.ratingOnIMDB = ratingOnIMDB;
 
+    }
+    public void checkDuration(){
+        System.out.println(duration>120? "long" : "short");
     }
 
     @Override
