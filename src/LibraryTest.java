@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class LibraryTest {
     public static void main(String[] args) {
         Book b1 = new Book("Robert Lewandowski | Official Biography", "Robert Lewandowski", 111, 2010);
         Movie m1 = new Movie("Se7en", "Polack", "2h 15min", 2009, 7.9);
