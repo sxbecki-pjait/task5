@@ -1,7 +1,7 @@
-public abstract class LibraryMedia {
-    String title;
-    int publicationYear;
-    boolean available;
+public class LibraryMedia {
+    protected String title;
+    protected int publicationYear;
+    protected boolean available;
 
     public LibraryMedia(String title, int publicationYear) {
         this.title = title;

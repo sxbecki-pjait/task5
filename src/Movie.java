@@ -11,7 +11,7 @@ public class Movie extends LibraryMedia {
 
     }
     public void checkDuration(){
-        System.out.println(duration>120? "long" : "short");
+        System.out.println("    " + (duration>120? "long" : "short" ) + " movie");
     }
 
     @Override

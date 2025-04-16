@@ -14,6 +14,10 @@ public class Book extends LibraryMedia{
         System.out.println(numberOfPages>500?"\"" + title + "\" is long":"\"" + title + "\" is not long");
     }
 
+    public void checkNumberOfPages(){
+        System.out.println("    " + (numberOfPages>120? "long" : "short" ) + " book");
+    }
+
     @Override
     public void displayInformation(){
         super.displayTitle();
